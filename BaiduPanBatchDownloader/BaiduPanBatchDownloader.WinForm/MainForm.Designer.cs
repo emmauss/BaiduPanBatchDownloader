@@ -85,7 +85,7 @@
             // saveToDataGridViewTextBoxColumn
             // 
             this.saveToDataGridViewTextBoxColumn.DataPropertyName = "SaveTo";
-            this.saveToDataGridViewTextBoxColumn.HeaderText = "保存路径";
+            this.saveToDataGridViewTextBoxColumn.HeaderText = "Save To:";
             this.saveToDataGridViewTextBoxColumn.Name = "saveToDataGridViewTextBoxColumn";
             this.saveToDataGridViewTextBoxColumn.ReadOnly = true;
             this.saveToDataGridViewTextBoxColumn.Width = 78;
@@ -124,7 +124,7 @@
             this.addToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addToolStripButton.Name = "addToolStripButton";
             this.addToolStripButton.Size = new System.Drawing.Size(52, 22);
-            this.addToolStripButton.Text = "添加(&A)";
+            this.addToolStripButton.Text = "Add To(&A)";
             this.addToolStripButton.Click += new System.EventHandler(this.addToolStripButton_Click);
             // 
             // startToolStripButton
@@ -134,8 +134,8 @@
             this.startToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.startToolStripButton.Name = "startToolStripButton";
             this.startToolStripButton.Size = new System.Drawing.Size(52, 22);
-            this.startToolStripButton.Text = "开始(&B)";
-            this.startToolStripButton.ToolTipText = "开始(&B)";
+            this.startToolStripButton.Text = "Start(&B)";
+            this.startToolStripButton.ToolTipText = "Start(&B)";
             this.startToolStripButton.Click += new System.EventHandler(this.startToolStripButton_Click);
             // 
             // stopToolStripButton
@@ -145,7 +145,7 @@
             this.stopToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stopToolStripButton.Name = "stopToolStripButton";
             this.stopToolStripButton.Size = new System.Drawing.Size(51, 22);
-            this.stopToolStripButton.Text = "停止(&E)";
+            this.stopToolStripButton.Text = "Stop(&E)";
             this.stopToolStripButton.Click += new System.EventHandler(this.stopToolStripButton_Click);
             // 
             // SetAllAddedToolStripButton
@@ -155,8 +155,8 @@
             this.SetAllAddedToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SetAllAddedToolStripButton.Name = "SetAllAddedToolStripButton";
             this.SetAllAddedToolStripButton.Size = new System.Drawing.Size(76, 22);
-            this.SetAllAddedToolStripButton.Text = "全部开始(R)";
-            this.SetAllAddedToolStripButton.ToolTipText = "全部开始(R)";
+            this.SetAllAddedToolStripButton.Text = "Start All(R)";
+            this.SetAllAddedToolStripButton.ToolTipText = "Start All(R)";
             this.SetAllAddedToolStripButton.Click += new System.EventHandler(this.SetAllAddedToolStripButton_Click);
             // 
             // removeStripButton
@@ -166,7 +166,7 @@
             this.removeStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeStripButton.Name = "removeStripButton";
             this.removeStripButton.Size = new System.Drawing.Size(53, 22);
-            this.removeStripButton.Text = "删除(&D)";
+            this.removeStripButton.Text = "Delete(&D)";
             this.removeStripButton.Click += new System.EventHandler(this.removeStripButton_Click);
             // 
             // backgroundWorker1
@@ -212,7 +212,7 @@
             this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(51, 22);
-            this.saveToolStripButton.Text = "保存(&S)";
+            this.saveToolStripButton.Text = "Save(&S)";
             this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
             // MainForm
