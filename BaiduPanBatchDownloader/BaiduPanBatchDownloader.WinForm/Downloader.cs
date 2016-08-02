@@ -26,12 +26,12 @@ namespace BaiduPanBatchDownloader.WinForm
                 var json = JObject.Parse(result);
                 if (json["rapid_download"].ToString() == "1")
                 {
-                    OnMessage(String.Format("下载{0}成功: {1}", url, result));
+                    OnMessage(String.Format("Download {0} successful: {1}", url, result));
                     return true;
                 }
                 else
                 {
-                    OnMessage(String.Format("秒速下载{0}失败: {1}", url, result));
+                    OnMessage(String.Format("Download {0} Failed: {1}", url, result));
                     string taskId = json["task_id"].ToString();
                     Thread.Sleep(2000);
                     client = GetClient();
@@ -41,7 +41,7 @@ namespace BaiduPanBatchDownloader.WinForm
             }
             catch (Exception ex)
             {
-                OnMessage(String.Format("下载{0}失败: {1}", url, ex.Message));
+                OnMessage(String.Format("Download {0} Failed: {1}", url, ex.Message));
                 return false;
             }
         }
