@@ -3,7 +3,7 @@
     partial class MainForm
     {
         /// <summary>
-        /// 必需的设计器变量。
+        /// Declaring design variable
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -77,7 +77,7 @@
             // statusDataGridViewTextBoxColumn
             // 
             this.statusDataGridViewTextBoxColumn.DataPropertyName = "Status";
-            this.statusDataGridViewTextBoxColumn.HeaderText = "状态";
+            this.statusDataGridViewTextBoxColumn.HeaderText = "Status";
             this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
             this.statusDataGridViewTextBoxColumn.ReadOnly = true;
             this.statusDataGridViewTextBoxColumn.Width = 54;
