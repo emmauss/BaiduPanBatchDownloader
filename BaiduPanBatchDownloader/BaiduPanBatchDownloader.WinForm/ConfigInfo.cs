@@ -64,7 +64,7 @@ namespace BaiduPanBatchDownloader.WinForm
                 }
             }
             var fileName = string.Format("{0}{1}", DateTime.Now.ToString("yyyyMMddHHmmss"), ConfigInfoFileName);
-            MessageBox.Show(string.Format("保存至{0}失败，另存到{1}", ConfigInfoFileName, fileName));
+            MessageBox.Show(string.Format("Faile to save {0}，Saving{1}", ConfigInfoFileName, fileName));
             using (FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.Write))
             {
                 xmlSerializer.Serialize(stream, _configInfo);
