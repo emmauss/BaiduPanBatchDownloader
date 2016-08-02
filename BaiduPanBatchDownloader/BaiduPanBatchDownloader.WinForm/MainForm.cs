@@ -98,7 +98,7 @@ namespace BaiduPanBatchDownloader.WinForm
         {
             if (string.IsNullOrWhiteSpace(cookieTextBox.Text))
             {
-                MessageBox.Show("请输入Cookie");
+                MessageBox.Show("Please enter Cookie");
                 return;
             }
             if (!backgroundWorker1.IsBusy)
@@ -132,7 +132,7 @@ namespace BaiduPanBatchDownloader.WinForm
 
         private void removeStripButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("确认删除?", "确认", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            if (MessageBox.Show("Do you want to delete?", "Confirm delete", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 foreach (DataGridViewRow selectedRow in dataGridView1.SelectedRows)
                 {
